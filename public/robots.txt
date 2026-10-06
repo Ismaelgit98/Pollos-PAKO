@@ -1,0 +1,13 @@
+# robots.txt para Pollos Pako
+# https://pollospako2026.web.app/
+
+User-agent: *
+Allow: /
+
+# Bloquear carpetas privadas (si existen en el futuro)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap del sitio
+Sitemap: https://pollospako2026.web.app/sitemap.xml
